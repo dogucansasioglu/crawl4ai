@@ -10,7 +10,7 @@ ARG PYTHON_VERSION=3.10
 FROM python:${PYTHON_VERSION}-slim as base
 
 # Declare ARG variables again within the build stage
-ARG INSTALL_TYPE=all
+ARG INSTALL_TYPE=basic
 ARG ENABLE_GPU=false
 
 # Platform-specific labels
